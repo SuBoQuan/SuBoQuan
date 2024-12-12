@@ -1,5 +1,5 @@
 .grid {
-    width: 1300px;
+    width: 1450px;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -34,4 +34,79 @@
 
 .header__navbar-icon-link {
     margin: 0 5px;
+}
+
+/* Authen modal */
+.auth-form {
+    padding: 0 40px;
+    width: 500;
+    padding-bottom: 30px;
+}
+
+.auth-form__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.auth-form__heading {
+    font-size: 2rem;
+}
+
+.auth-form__switch-btn {
+    font-size: 1.5rem;
+    color: red;
+    font-weight: 450;
+    cursor: pointer;
+}
+
+.auth-form__input {
+    width: 626px;
+    height: 40px;
+    margin-top: 15px;
+    padding: 0 12px;
+    font-size: 1rem;
+    border-radius: 3px;
+}
+
+.auth-form__input:focus {
+    border: #777;
+}
+
+.auth-form__aside {
+    margin-top: 20px;
+}
+
+.auth-form__policy-text {
+    font-size: 1.14rem;
+}
+
+.auth-form__text-link {
+    color: red;
+    text-decoration: none;
+}
+
+.auth-form__controls {
+    margin-top: 50px;
+}
+
+.auth-form__controls {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.auth-form__controls-back {
+    margin-right: 10px;
+}
+
+.auth-form__help {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.auth-form__help-link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: red;
 }
