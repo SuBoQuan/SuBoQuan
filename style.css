@@ -39,7 +39,7 @@
 /* Authen modal */
 .auth-form {
     padding: 0 40px;
-    width: 500;
+    width: 500px;
     padding-bottom: 30px;
 }
 
@@ -62,7 +62,7 @@
 }
 
 .auth-form__input {
-    width: 626px;
+    width: 95%;
     height: 40px;
     margin-top: 15px;
     padding: 0 12px;
